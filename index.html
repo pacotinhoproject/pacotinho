@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pacotinho Project — Open-source projects in networking, cybersecurity and software." />
+  <title>Pacotinho Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;600;700;800&family=DM+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+
+      <div class="profile-card" aria-label="Pacotinho Project no Instagram">
+        <div class="profile-card__info">
+          <p class="profile-card__handle">
+            @pacotinhoproject
+            <svg class="profile-card__verified" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Verified">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" fill="#3897f0"/>
+              <path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </p>
+        </div>
+      </div>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav__list" id="nav-list">
+          <li><a href="#about"    class="nav__link">About</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#support"  class="nav__link">Support</a></li>
+          <li><a href="https://github.com/pacotinhoproject" class="btn btn--sm" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
+        </ul>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO — fundo: cream -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="label">// open source</p>
+          <h1 class="hero__title">Pacotinho<br><span>Project</span></h1>
+          <div class="hero__tags">
+            <span class="hero__tag">Networking</span>
+            <span class="hero__tag">Cybersecurity</span>
+            <span class="hero__tag">Software</span>
+          </div>
+          <p class="hero__desc">Open-source projects, experiments and tools.</p>
+          <div class="hero__actions">
+            <a href="https://github.com/pacotinhoproject" class="btn btn--primary" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a href="#projects" class="btn btn--ghost">See projects</a>
+          </div>
+        </div>
+        <div class="hero__mascot" aria-hidden="true">
+          <img src="assets/img/pacotinho.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT — fundo: white -->
+    <section class="section section--white" id="about">
+      <div class="container">
+        <p class="label">// about</p>
+        <h2 class="section__title">About</h2>
+        <p class="text">Pacotinho Project is an open-source organization for projects related to networking, cybersecurity and software.</p>
+        <p class="text">We build small projects, experiments and tools.</p>
+        <div class="note">The project is just getting started.</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS — fundo: mudei para o amarelo manualmente -->
+    <section class="section section--cream" id="projects">
+      <div class="container">
+        <p class="label">// projects</p>
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid" id="projects-grid">
+
+          <article class="card">
+            <div class="card__meta">
+              <span class="card__tag">website</span>
+              <span class="card__status">active</span>
+            </div>
+            <h3 class="card__name">pacotinho</h3>
+            <p class="card__desc">The official Pacotinho Project website. Open-source, built with HTML, CSS and JS.</p>
+            <a href="https://github.com/pacotinhoproject/pacotinho" class="card__link" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPPORT — fundo: white -->
+    <section class="section section--white" id="support">
+      <div class="container">
+        <p class="label">// support</p>
+        <h2 class="section__title">Support</h2>
+        <p class="text">Help us keep building open-source projects.</p>
+        <a href="https://www.buymeacoffee.com/pacotinhoproject" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.buymeacoffee.com/widget/assets/coffee%20cup.svg" alt="" aria-hidden="true" width="22" height="22" />
+          Buy me a coffee
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <!-- card perfil Instagram -->
+      <div class="profile-card" aria-label="Pacotinho Project no Instagram">
+        <div class="profile-card__story">
+          <img src="assets/img/instagram_photo.png" alt="Pacotinho" class="profile-card__avatar" />
+        </div>
+        <div class="profile-card__info">
+          <p class="profile-card__handle">
+            @pacotinhoproject
+            <svg class="profile-card__verified" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Verified">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z" fill="#3897f0"/>
+              <path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </p>
+        </div>
+        <a href="https://www.instagram.com/pacotinhoproject" class="profile-card__btn" target="_blank" rel="noopener noreferrer">Follow ↗</a>
+      </div>
+
+      <nav aria-label="Footer navigation" class="footer__nav">
+        <a href="https://github.com/pacotinhoproject"          class="footer__link" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.instagram.com/pacotinhoproject"   class="footer__link" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        <a href="https://www.buymeacoffee.com/pacotinhoproject" class="footer__link" target="_blank" rel="noopener noreferrer">Buy Me a Coffee ↗</a>
+      </nav>
+
+    </div>
+  </footer>
+
+  <script
+    data-name="BMC-Widget"
+    data-cfasync="false"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="pacotinhoproject"
+    data-description="Support me on Buy me a coffee!"
+    data-message=""
+    data-color="#cca775"
+    data-position="Right"
+    data-x_margin="18"
+    data-y_margin="18">
+  </script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
