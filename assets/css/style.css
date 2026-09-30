@@ -341,7 +341,7 @@ ul  { list-style: none; }
 
 /* botão Follow */
 .profile-card__btn {
-  font-family: var(--body);
+  font-family: var(--mono);
   font-size: 0.9rem;
   font-weight: 800;
   background: var(--yellow);
